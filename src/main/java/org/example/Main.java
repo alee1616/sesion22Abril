@@ -24,16 +24,16 @@ public class Main {
             );
 
             switch (seleccion) {
-                case 0: // AGREGAR
+                case 0:
                     agregarNuevoProducto(servicio);
                     break;
 
-                case 1: // VER FACTURA
+                case 1:
                     mostrarFactura(servicio);
                     break;
 
-                case 2: // SALIR
-                case -1: // Si cierran la ventana con la X
+                case 2:
+                case -1:
                     JOptionPane.showMessageDialog(null, "¡Gracias por visitar Pulpería Jaguar!");
                     ejecutando = false;
                     break;
